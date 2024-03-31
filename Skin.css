@@ -54,7 +54,7 @@ body {
     background-color: rgba(46, 212, 253, 0.5);
     border: 50px;
     border-radius: 50%;
-    animation: droplet-fall 20s linear infinite;
+    animation: droplet-fall 15s linear infinite;
 }
 
 

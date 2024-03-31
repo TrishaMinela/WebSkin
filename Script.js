@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
             droplet.style.height = Math.random() * 15 + 'px';
             //Random position
             droplet.style.left = Math.random() * window.innerWidth + 'px';
-            droplet.style.top = Math.random() * window.innerHeight + 100 + 'px';
+            droplet.style.top = -Math.random() * window.innerHeight + 'px';
             waterDroplets.appendChild(droplet);
         }
     }
